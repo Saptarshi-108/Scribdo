@@ -2,7 +2,6 @@ services:
   - type: web
     name: gmeet-summarizer-api
     env: python
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: ./start.sh
-    plan: free
-    autoDeploy: true
