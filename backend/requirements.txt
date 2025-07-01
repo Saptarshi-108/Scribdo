@@ -7,7 +7,4 @@ huggingface-hub==0.28.1
 fpdf
 python-multipart
 langdetect
-
-
-
-
+python-dotenv
