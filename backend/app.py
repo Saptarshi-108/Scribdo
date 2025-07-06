@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict this to chrome-extension://<EXT_ID>
+    allow_origins=["chrome-extension:iecoipjpgmodkkfbacfbmciahlaicdhf","*"],  # In production, restrict this to chrome-extension://<EXT_ID>
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
